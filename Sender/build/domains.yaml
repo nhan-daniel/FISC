@@ -1,0 +1,7 @@
+default: l4_e1
+build_dir: /Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build
+domains:
+  - name: l4_e1
+    build_dir: /Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/l4_e1
+flash_order:
+  - l4_e1

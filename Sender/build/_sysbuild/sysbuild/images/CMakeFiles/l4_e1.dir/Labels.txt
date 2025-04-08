@@ -1,0 +1,13 @@
+# Target labels
+ l4_e1
+# Source files and their labels
+/Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e1
+/Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e1.rule
+/Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/_sysbuild/sysbuild/images/CMakeFiles/l4_e1-complete.rule
+/Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-build.rule
+/Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-configure.rule
+/Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-download.rule
+/Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-install.rule
+/Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-mkdir.rule
+/Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-patch.rule
+/Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build/_sysbuild/sysbuild/images/l4_e1-prefix/src/l4_e1-stamp/l4_e1-update.rule

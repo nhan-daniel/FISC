@@ -1,0 +1,6 @@
+west:
+  command: /opt/nordic/ncs/toolchains/b8efef2ad5/bin/west build --build-dir /Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1/build
+    /Users/danielnguyen/cell-fund/v2.9.0-v2.7.0/l4/l4_e1 --pristine --board nrf9160dk/nrf9160/ns
+    -- -DNCS_TOOLCHAIN_VERSION=NONE
+  topdir: /opt/nordic/ncs/v2.9.0
+  version: 1.2.0
