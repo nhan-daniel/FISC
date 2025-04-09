@@ -109,7 +109,7 @@ static void button_handler(uint32_t button_state, uint32_t has_changed)
 }
 
 bool if_checked = false;
-
+bool led1_checked = false;
 
 #define LOOP_RADIUS 30.0
 #define CENTER_LAT 63.4575
@@ -153,6 +153,16 @@ static void check_input(void) {
     if (input_state == 1) {
         double lat, lon;
         generate_infinity_position(&lat, &lon);
+
+		if (!led1_checked){
+			led1_checked = true;
+			int err = data_publish(&client, MQTT_QOS_1_AT_LEAST_ONCE,
+				CONFIG_BUTTON_EVENT_PUBLISH_MSG, sizeof(CONFIG_BUTTON_EVENT_PUBLISH_MSG)-1);
+			if (err) {
+				LOG_INF("Failed to send message, %d", err);
+				return;	
+			}
+		}
 
         char json_str[100];
         int lat_i = (int)(lat * 1e6);
