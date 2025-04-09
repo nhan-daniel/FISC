@@ -1,0 +1,50 @@
+cmake:
+  application:
+    configuration-dir: /home/kim/ncs/v2.9.1/nrf/applications/signal_sender
+    source-dir: /home/kim/ncs/v2.9.1/nrf/applications/signal_sender
+  board:
+    name: nrf9160dk
+    qualifiers: nrf9160/ns
+    revision: 0.14.0
+  devicetree:
+    bindings-dirs:
+     - /home/kim/ncs/v2.9.1/nrf/dts/bindings
+     - /home/kim/ncs/v2.9.1/zephyr/boards/nordic/nrf9160dk/dts/bindings
+     - /home/kim/ncs/v2.9.1/zephyr/dts/bindings
+    files:
+     - /home/kim/ncs/v2.9.1/zephyr/boards/nordic/nrf9160dk/nrf9160dk_nrf9160_ns.dts
+     - /home/kim/ncs/v2.9.1/zephyr/boards/nordic/nrf9160dk/nrf9160dk_nrf9160_ns_0_14_0.overlay
+    include-dirs:
+     - /home/kim/ncs/v2.9.1/nrf/include
+     - /home/kim/ncs/v2.9.1/nrf/dts
+     - /home/kim/ncs/v2.9.1/zephyr/boards/nordic/nrf9160dk/dts
+     - /home/kim/ncs/v2.9.1/zephyr/include
+     - /home/kim/ncs/v2.9.1/zephyr/include/zephyr
+     - /home/kim/ncs/v2.9.1/zephyr/dts/common
+     - /home/kim/ncs/v2.9.1/zephyr/dts/x86
+     - /home/kim/ncs/v2.9.1/zephyr/dts/xtensa
+     - /home/kim/ncs/v2.9.1/zephyr/dts/sparc
+     - /home/kim/ncs/v2.9.1/zephyr/dts/riscv
+     - /home/kim/ncs/v2.9.1/zephyr/dts/posix
+     - /home/kim/ncs/v2.9.1/zephyr/dts/nios2
+     - /home/kim/ncs/v2.9.1/zephyr/dts/arm64
+     - /home/kim/ncs/v2.9.1/zephyr/dts/arm
+     - /home/kim/ncs/v2.9.1/zephyr/dts/arc
+     - /home/kim/ncs/v2.9.1/zephyr/dts
+  kconfig:
+    files:
+     - /home/kim/ncs/v2.9.1/zephyr/boards/nordic/nrf9160dk/nrf9160dk_nrf9160_ns_defconfig
+     - /home/kim/ncs/v2.9.1/nrf/applications/signal_sender/prj.conf
+     - /home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/signal_sender/zephyr/.config.sysbuild
+    user-files:
+     - /home/kim/ncs/v2.9.1/nrf/applications/signal_sender/prj.conf
+  toolchain:
+    name: zephyr
+    path: /home/kim/ncs/toolchains/b77d8c1312/opt/zephyr-sdk
+  vendor-specific:
+    nordic:
+      svdfile: /home/kim/ncs/v2.9.1/modules/hal/nordic/nrfx/mdk/nrf9160.svd
+  zephyr:
+    version: 3.7.99
+    zephyr-base: /home/kim/ncs/v2.9.1/zephyr
+version: 0.1.0

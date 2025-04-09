@@ -1,0 +1,13 @@
+# Target labels
+ signal_sender
+# Source files and their labels
+/home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/_sysbuild/sysbuild/images/CMakeFiles/signal_sender
+/home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/_sysbuild/sysbuild/images/CMakeFiles/signal_sender.rule
+/home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/_sysbuild/sysbuild/images/CMakeFiles/signal_sender-complete.rule
+/home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/_sysbuild/sysbuild/images/signal_sender-prefix/src/signal_sender-stamp/signal_sender-build.rule
+/home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/_sysbuild/sysbuild/images/signal_sender-prefix/src/signal_sender-stamp/signal_sender-configure.rule
+/home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/_sysbuild/sysbuild/images/signal_sender-prefix/src/signal_sender-stamp/signal_sender-download.rule
+/home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/_sysbuild/sysbuild/images/signal_sender-prefix/src/signal_sender-stamp/signal_sender-install.rule
+/home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/_sysbuild/sysbuild/images/signal_sender-prefix/src/signal_sender-stamp/signal_sender-mkdir.rule
+/home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/_sysbuild/sysbuild/images/signal_sender-prefix/src/signal_sender-stamp/signal_sender-patch.rule
+/home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/_sysbuild/sysbuild/images/signal_sender-prefix/src/signal_sender-stamp/signal_sender-update.rule

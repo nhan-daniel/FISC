@@ -1,0 +1,2 @@
+"nrf":"/home/kim/ncs/v2.9.1/nrf":"/home/kim/ncs/v2.9.1/nrf/sysbuild"
+"mcuboot":"/home/kim/ncs/v2.9.1/bootloader/mcuboot":"/home/kim/ncs/v2.9.1/bootloader/mcuboot/boot/zephyr/sysbuild"

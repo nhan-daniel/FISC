@@ -1,0 +1,7 @@
+default: signal_sender
+build_dir: /home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build
+domains:
+  - name: signal_sender
+    build_dir: /home/kim/ncs/v2.9.1/nrf/applications/signal_sender/build/signal_sender
+flash_order:
+  - signal_sender
