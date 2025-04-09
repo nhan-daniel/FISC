@@ -1,0 +1,7 @@
+default: Mottaker
+build_dir: /Users/danielnguyen/Downloads/Mottaker/build_2
+domains:
+  - name: Mottaker
+    build_dir: /Users/danielnguyen/Downloads/Mottaker/build_2/Mottaker
+flash_order:
+  - Mottaker
