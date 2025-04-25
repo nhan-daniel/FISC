@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
  */
 
+/*Koden har tatt utgangspunkt fra Lesson 4, oppgave 1 i Cellular IoT Fundamentals i DevAcademy*/
+
 #include <stdio.h>
 #include <ncs_version.h>
 #include <zephyr/kernel.h>
@@ -23,24 +25,29 @@
 
 #include "mqtt_connection.h"
 
+//GPIO-nummer for utgangen som skal brukes
 #define INPUT_PIN 15
 
+//Henter GPIO-enheten (gpio0)
 #define INPUT_NODE DT_NODELABEL(gpio0)
+
 
 #define _USE_MATH_DEFINES
 
-
+//Referanser til GPIO
 const struct device *gpio_dev = DEVICE_DT_GET(DT_NODELABEL(gpio0));
 
-
+//MQTT-klient og poll-struktur
 static struct mqtt_client client;
-
 static struct pollfd fds;
 
+//Semaphore som venter på at LTE er tilkoblet
 static K_SEM_DEFINE(lte_connected, 0, 1);
 
+//Aktiverer logging
 LOG_MODULE_REGISTER(Lesson4_Exercise1, LOG_LEVEL_INF);
 
+//Håndterer LTE-hendelser (f.eks. tilkobling)
 static void lte_handler(const struct lte_lc_evt *const evt)
 {
      switch (evt->type) {
@@ -63,6 +70,7 @@ static void lte_handler(const struct lte_lc_evt *const evt)
      }
 }
 
+//Initierer modem og LTE-tilkobling
 static int modem_configure(void)
 {
 	int err;
@@ -81,15 +89,19 @@ static int modem_configure(void)
 		return err;
 	}
 
+	//Venter på tilkobling
 	k_sem_take(&lte_connected, K_FOREVER);
 	LOG_INF("Connected to LTE network");
+	//Slår på LED2 som indikerer tilkobling
 	dk_set_led_on(DK_LED2);
 
 	return 0;
 }
 
+//Knappetrykk: for å testing
 static void button_handler(uint32_t button_state, uint32_t has_changed)
 {
+	//Knapp som starter alarmen
 	switch (has_changed) {
 	case DK_BTN1_MSK:
 		if (button_state & DK_BTN1_MSK){	
@@ -104,6 +116,7 @@ static void button_handler(uint32_t button_state, uint32_t has_changed)
 	}
 }
 
+//Definerer variabler til posisjons simulering
 bool if_checked = false;
 bool led1_checked = false;
 
@@ -114,7 +127,7 @@ bool led1_checked = false;
 
 static double t = 0.0;
 
-
+// Konverterer meter til grader (latitude og longitude)
 double meters_to_degrees_lat(double meters) {
     return meters / 111320.0;
 }
@@ -123,6 +136,7 @@ double meters_to_degrees_lon(double meters, double lat) {
     return meters / (40075000.0 * cos(lat * 3.14 / 180.0) / 360.0);
 }
 
+//Simulerer posisjon i en uendelig sløyfe
 void generate_infinity_position(double *lat_out, double *lon_out) {
     t += 0.05;
 
@@ -139,6 +153,7 @@ void generate_infinity_position(double *lat_out, double *lon_out) {
     *lon_out = CENTER_LON + delta_lon;
 }
 
+//Sjekker inngangsstatus og publiserer posisjon
 static void check_input(void) {
     int input_state = gpio_pin_get(gpio_dev, INPUT_PIN);
 
@@ -163,6 +178,7 @@ static void check_input(void) {
 			}
 		}
 
+		//Lager en JSON-streng for posisjonen
         char json_str[100];
         int lat_i = (int)(lat * 1e6);
 		int lon_i = (int)(lon * 1e6);
@@ -190,6 +206,7 @@ int main(void)
 	int err;
 	uint32_t connect_attempt = 0;
 
+	//Initialiserer LED, modem, knapper
 	if (dk_leds_init() != 0) {
 		LOG_ERR("Failed to initialize the LED library");
 	}
@@ -204,20 +221,23 @@ int main(void)
 		LOG_ERR("Failed to initialize the buttons library");
 	}
 
+	if (!device_is_ready(gpio_dev)) {
+        printk("GPIO device not ready\n");
+        return 0;
+    }
+
+	//Initialiserer MQTT
 	err = client_init(&client);
 	if (err) {
 		LOG_ERR("Failed to initialize MQTT client: %d", err);
 		return 0;
 	}
-
-	if (!device_is_ready(gpio_dev)) {
-        printk("GPIO device not ready\n");
-        return 0;
-    }
+	//Konfigurer GPIO som utganger
 	gpio_pin_configure(gpio_dev, INPUT_PIN, GPIO_INPUT | GPIO_PULL_UP);
 
-
+//Forsøker å koble til MQTT-server
 do_connect:
+	//Forsinkelse ved reconnecting
 	if (connect_attempt++ > 0) {
 		LOG_INF("Reconnecting in %d seconds...",
 			CONFIG_MQTT_RECONNECT_DELAY_S);
@@ -235,15 +255,15 @@ do_connect:
 		return 0;
 	}
 
+	//Hovedløkke
 	while (1) {
-
-		check_input();
 		err = poll(&fds, 1, 5000);
 		if (err < 0) {
 			LOG_ERR("Error in poll(): %d", errno);
 			break;
 		}
 
+		//Oppdater MQTT-klient
 		err = mqtt_live(&client);
 		if ((err != 0) && (err != -EAGAIN)) {
 			LOG_ERR("Error in mqtt_live: %d", err);
@@ -267,14 +287,19 @@ do_connect:
 			LOG_ERR("POLLNVAL");
 			break;
 		}
+
+		//Sjekker om posisjoner skal sendes
+		check_input();
 	}
 
+	//Koble fra MQTT hvis løkka avsluttes
 	LOG_INF("Disconnecting MQTT client");
-
 	err = mqtt_disconnect(&client);
 	if (err) {
 		LOG_ERR("Could not disconnect MQTT client: %d", err);
 	}
+	
+	//Prøver å koble til på nytt
 	goto do_connect;
 
 	return 0;
