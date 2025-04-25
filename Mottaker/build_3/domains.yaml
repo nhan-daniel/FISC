@@ -1,0 +1,7 @@
+default: Mottaker
+build_dir: /Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3
+domains:
+  - name: Mottaker
+    build_dir: /Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/Mottaker
+flash_order:
+  - Mottaker

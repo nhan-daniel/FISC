@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/_sysbuild/sysbuild/images/CMakeFiles/Mottaker"
+		},
+		{
+			"file" : "/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/_sysbuild/sysbuild/images/CMakeFiles/Mottaker.rule"
+		},
+		{
+			"file" : "/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/_sysbuild/sysbuild/images/CMakeFiles/Mottaker-complete.rule"
+		},
+		{
+			"file" : "/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-build.rule"
+		},
+		{
+			"file" : "/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-configure.rule"
+		},
+		{
+			"file" : "/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-download.rule"
+		},
+		{
+			"file" : "/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-install.rule"
+		},
+		{
+			"file" : "/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-mkdir.rule"
+		},
+		{
+			"file" : "/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-patch.rule"
+		},
+		{
+			"file" : "/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build_3/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Mottaker"
+		],
+		"name" : "Mottaker"
+	}
+}
