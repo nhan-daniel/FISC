@@ -1,0 +1,7 @@
+default: Sender
+build_dir: /Users/danielnguyen/Documents/GitHub/FISC/Sender/build
+domains:
+  - name: Sender
+    build_dir: /Users/danielnguyen/Documents/GitHub/FISC/Sender/build/Sender
+flash_order:
+  - Sender

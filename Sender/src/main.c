@@ -14,15 +14,11 @@
 #include <dk_buttons_and_leds.h>
 #include <modem/nrf_modem_lib.h>
 #include <modem/lte_lc.h>
-
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/sys/printk.h>
 #include <zephyr/devicetree.h>
-
 #include <math.h>
-
 #include <zephyr/net/mqtt.h>
-
 #include "mqtt_connection.h"
 
 //GPIO-nummer for utgangen som skal brukes
@@ -298,7 +294,7 @@ do_connect:
 	if (err) {
 		LOG_ERR("Could not disconnect MQTT client: %d", err);
 	}
-	
+
 	//Prøver å koble til på nytt
 	goto do_connect;
 

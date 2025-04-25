@@ -1,0 +1,13 @@
+# Target labels
+ Mottaker
+# Source files and their labels
+/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build/_sysbuild/sysbuild/images/CMakeFiles/Mottaker
+/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build/_sysbuild/sysbuild/images/CMakeFiles/Mottaker.rule
+/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build/_sysbuild/sysbuild/images/CMakeFiles/Mottaker-complete.rule
+/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-build.rule
+/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-configure.rule
+/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-download.rule
+/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-install.rule
+/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-mkdir.rule
+/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-patch.rule
+/Users/danielnguyen/Documents/GitHub/FISC/Mottaker/build/_sysbuild/sysbuild/images/Mottaker-prefix/src/Mottaker-stamp/Mottaker-update.rule

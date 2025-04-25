@@ -1,7 +1,0 @@
-default: Sender
-build_dir: /Users/danielnguyen/FISC/Sender/build_1
-domains:
-  - name: Sender
-    build_dir: /Users/danielnguyen/FISC/Sender/build_1/Sender
-flash_order:
-  - Sender
