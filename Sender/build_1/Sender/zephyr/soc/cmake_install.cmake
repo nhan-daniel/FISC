@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/soc/common/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/soc/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/soc/soc/nrf9160/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/soc/soc/nrf9160/cmake_install.cmake")
 endif()
 

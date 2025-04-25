@@ -39,51 +39,51 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/bin/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/bin/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/nrf_modem_lib/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/nrf_modem_lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/dk_buttons_and_leds/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/dk_buttons_and_leds/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/at_monitor/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/at_monitor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/at_parser/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/at_parser/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/lte_link_control/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/lte_link_control/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/flash_patch/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/flash_patch/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/fatal_error/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/fatal_error/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/modem_antenna/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/modem_antenna/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/boot_banner/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/boot_banner/cmake_install.cmake")
 endif()
 

@@ -39,246 +39,246 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/arch/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/arch/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/lib/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/soc/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/soc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/boards/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/boards/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/subsys/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/subsys/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/mcuboot/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/mcuboot/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/mbedtls/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/mbedtls/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/trusted-firmware-m/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/trusted-firmware-m/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/cjson/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/cjson/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/azure-sdk-for-c/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/azure-sdk-for-c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/cirrus-logic/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/cirrus-logic/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/openthread/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/openthread/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/suit-processor/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/suit-processor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/memfault-firmware-sdk/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/memfault-firmware-sdk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/canopennode/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/canopennode/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/chre/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/chre/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/lz4/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/lz4/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nanopb/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nanopb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/zscilib/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/zscilib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/cmsis/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/cmsis/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/cmsis-dsp/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/cmsis-dsp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/cmsis-nn/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/cmsis-nn/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/fatfs/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/fatfs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/hal_nordic/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/hal_nordic/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/hal_st/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/hal_st/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/hal_wurthelektronik/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/hal_wurthelektronik/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/hostap/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/hostap/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/libmetal/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/libmetal/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/liblc3/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/liblc3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/littlefs/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/littlefs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/loramac-node/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/loramac-node/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/lvgl/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/lvgl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/mipi-sys-t/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/mipi-sys-t/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf_wifi/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf_wifi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/open-amp/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/open-amp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/picolibc/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/picolibc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/segger/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/segger/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/tinycrypt/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/tinycrypt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/uoscore-uedhoc/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/uoscore-uedhoc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/zcbor/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/zcbor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrfxlib/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrfxlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf_hw_models/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf_hw_models/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/connectedhomeip/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/connectedhomeip/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/kernel/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/kernel/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/cmake/flash/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/cmake/flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/cmake/usage/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/cmake/usage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/cmake/reports/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/cmake/reports/cmake_install.cmake")
 endif()
 

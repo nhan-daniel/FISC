@@ -1,8 +1,8 @@
-/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Kconfig/Kconfig.sysbuild.modules
-/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Kconfig/boards/Kconfig.nrf9160dk
-/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Kconfig/boards/Kconfig.sysbuild
-/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Kconfig/soc/Kconfig.soc
-/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Kconfig/soc/Kconfig.sysbuild
+/Users/danielnguyen/FISC/Sender/build_1/Kconfig/Kconfig.sysbuild.modules
+/Users/danielnguyen/FISC/Sender/build_1/Kconfig/boards/Kconfig.nrf9160dk
+/Users/danielnguyen/FISC/Sender/build_1/Kconfig/boards/Kconfig.sysbuild
+/Users/danielnguyen/FISC/Sender/build_1/Kconfig/soc/Kconfig.soc
+/Users/danielnguyen/FISC/Sender/build_1/Kconfig/soc/Kconfig.sysbuild
 /opt/nordic/ncs/v2.9.0/nrf/sysbuild/Kconfig.appcore
 /opt/nordic/ncs/v2.9.0/nrf/sysbuild/Kconfig.approtect
 /opt/nordic/ncs/v2.9.0/nrf/sysbuild/Kconfig.bt_fast_pair

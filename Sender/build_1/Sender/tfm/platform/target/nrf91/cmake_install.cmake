@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns")
+  set(CMAKE_INSTALL_PREFIX "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,19 +39,19 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/platform/target/nrf91/nrf_common/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/platform/target/nrf91/nrf_common/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91/nrfx_config_nrf91.h;/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91/CMakeLists.txt;/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91/config.cmake")
+   "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91/nrfx_config_nrf91.h;/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91/CMakeLists.txt;/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91/config.cmake")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91" TYPE FILE MESSAGE_LAZY FILES
+  file(INSTALL DESTINATION "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91" TYPE FILE MESSAGE_LAZY FILES
     "/opt/nordic/ncs/v2.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf91/nrfx_config_nrf91.h"
     "/opt/nordic/ncs/v2.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf91/ns/CMakeLists.txt"
     "/opt/nordic/ncs/v2.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf91/config.cmake"
@@ -60,14 +60,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91/tests;/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91/partition")
+   "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91/tests;/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91/partition")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91" TYPE DIRECTORY MESSAGE_LAZY FILES
+  file(INSTALL DESTINATION "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf91" TYPE DIRECTORY MESSAGE_LAZY FILES
     "/opt/nordic/ncs/v2.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf91/tests"
     "/opt/nordic/ncs/v2.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf91/partition"
     )

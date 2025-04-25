@@ -39,71 +39,71 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/disk/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/disk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/firmware/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/firmware/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/interrupt_controller/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/interrupt_controller/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/misc/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/misc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/pcie/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/pcie/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/usb/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/usb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/usb_c/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/usb_c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/clock_control/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/clock_control/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/console/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/console/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/entropy/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/entropy/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/gpio/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/pinctrl/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/pinctrl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/serial/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/serial/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/zephyr/drivers/timer/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/zephyr/drivers/timer/cmake_install.cmake")
 endif()
 

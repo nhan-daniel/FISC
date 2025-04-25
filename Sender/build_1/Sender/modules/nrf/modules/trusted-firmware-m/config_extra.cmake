@@ -24,8 +24,8 @@ set(MBEDTLS_PSA_CRYPTO_USER_CONFIG_FILE nrf-psa-crypto-user-config.h   CACHE STR
 
 # This file is populated with the generated include-folders for PSA interface (for main app, ns-services) as
 # well as the include-folder for library build of the crypto toolbo with or without TF-M
-set(PSA_CRYPTO_CONFIG_INTERFACE_PATH    /Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/generated/interface_nrf_security_psa CACHE STRING "Path used for generated PSA crypto configuratiosn for the interface")
-set(PSA_CRYPTO_CONFIG_LIBRARY_PATH      /Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/generated/library_nrf_security_psa CACHE STRING "Path used for generated PSA crypto for library builds")
+set(PSA_CRYPTO_CONFIG_INTERFACE_PATH    /Users/danielnguyen/FISC/Sender/build_1/Sender/generated/interface_nrf_security_psa CACHE STRING "Path used for generated PSA crypto configuratiosn for the interface")
+set(PSA_CRYPTO_CONFIG_LIBRARY_PATH      /Users/danielnguyen/FISC/Sender/build_1/Sender/generated/library_nrf_security_psa CACHE STRING "Path used for generated PSA crypto for library builds")
 
 # Defines used by including external_core.cmake multiple times (to clean up for CMake trace)
 # This definitely needs to be reworked in upstream TF-M

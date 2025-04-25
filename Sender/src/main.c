@@ -19,7 +19,6 @@
 
 #include <math.h>
 
-/* STEP 2.3 - Include the header file for the MQTT Library*/
 #include <zephyr/net/mqtt.h>
 
 #include "mqtt_connection.h"
@@ -31,13 +30,11 @@
 #define _USE_MATH_DEFINES
 
 
-// Get the GPIO device
 const struct device *gpio_dev = DEVICE_DT_GET(DT_NODELABEL(gpio0));
 
 
-/* The mqtt client struct */
 static struct mqtt_client client;
-/* File descriptor */
+
 static struct pollfd fds;
 
 static K_SEM_DEFINE(lte_connected, 0, 1);
@@ -95,7 +92,6 @@ static void button_handler(uint32_t button_state, uint32_t has_changed)
 {
 	switch (has_changed) {
 	case DK_BTN1_MSK:
-		/* STEP 7.2 - When button 1 is pressed, call data_publish() to publish a message */
 		if (button_state & DK_BTN1_MSK){	
 			int err = data_publish(&client, MQTT_QOS_1_AT_LEAST_ONCE,
 				   CONFIG_BUTTON_EVENT_PUBLISH_MSG, sizeof(CONFIG_BUTTON_EVENT_PUBLISH_MSG)-1);
@@ -118,7 +114,7 @@ bool led1_checked = false;
 
 static double t = 0.0;
 
-// Konverteringsfunksjoner
+
 double meters_to_degrees_lat(double meters) {
     return meters / 111320.0;
 }
@@ -146,8 +142,11 @@ void generate_infinity_position(double *lat_out, double *lon_out) {
 static void check_input(void) {
     int input_state = gpio_pin_get(gpio_dev, INPUT_PIN);
 
-    // Logg input status
     printk("Pin P0.15 state: %d\n", input_state);
+
+	if (input_state == 0 && led1_checked) {
+		led1_checked = false;
+	}
 
     // Hvis input er 0 – send posisjoner kontinuerlig
     if (input_state == 1) {
@@ -183,6 +182,7 @@ static void check_input(void) {
         }
 		k_sleep(K_MSEC(2000));
     }
+	
 }
 
 int main(void)
@@ -238,7 +238,6 @@ do_connect:
 	while (1) {
 
 		check_input();
-		//mqtt_keepalive_time_left(&client)
 		err = poll(&fds, 1, 5000);
 		if (err < 0) {
 			LOG_ERR("Error in poll(): %d", errno);
@@ -278,6 +277,5 @@ do_connect:
 	}
 	goto do_connect;
 
-	/* This is never reached */
 	return 0;
 }

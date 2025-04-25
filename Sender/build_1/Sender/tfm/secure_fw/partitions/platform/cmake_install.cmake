@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns")
+  set(CMAKE_INSTALL_PREFIX "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

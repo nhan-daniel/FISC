@@ -39,36 +39,36 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/ext/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/ext/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/lib/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/samples/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/samples/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/subsys/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/subsys/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/modules/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/modules/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/drivers/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/modules/nrf/tests/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/modules/nrf/tests/cmake_install.cmake")
 endif()
 

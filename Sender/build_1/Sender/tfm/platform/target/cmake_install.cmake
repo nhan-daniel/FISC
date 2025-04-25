@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns")
+  set(CMAKE_INSTALL_PREFIX "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,71 +39,71 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/platform/target/nrf91/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/platform/target/nrf91/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/platform/target/tfm_board/cmake_install.cmake")
+  include("/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/platform/target/tfm_board/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/cpuarch.cmake")
+   "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/cpuarch.cmake")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform" TYPE FILE MESSAGE_LAZY RENAME "cpuarch.cmake" FILES "/opt/nordic/ncs/v2.9.0/nrf/modules/trusted-firmware-m/tfm_boards/nrf9160/ns/cpuarch_ns.cmake")
+  file(INSTALL DESTINATION "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform" TYPE FILE MESSAGE_LAZY RENAME "cpuarch.cmake" FILES "/opt/nordic/ncs/v2.9.0/nrf/modules/trusted-firmware-m/tfm_boards/nrf9160/ns/cpuarch_ns.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf9160/cpuarch.cmake")
+   "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf9160/cpuarch.cmake")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf9160" TYPE FILE MESSAGE_LAZY FILES "/opt/nordic/ncs/v2.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/cpuarch.cmake")
+  file(INSTALL DESTINATION "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/common/nrf9160" TYPE FILE MESSAGE_LAZY FILES "/opt/nordic/ncs/v2.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/common/nrf9160/cpuarch.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/config.cmake")
+   "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/config.cmake")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform" TYPE FILE MESSAGE_LAZY FILES "/opt/nordic/ncs/v2.9.0/nrf/modules/trusted-firmware-m/tfm_boards/nrf9160/config.cmake")
+  file(INSTALL DESTINATION "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform" TYPE FILE MESSAGE_LAZY FILES "/opt/nordic/ncs/v2.9.0/nrf/modules/trusted-firmware-m/tfm_boards/nrf9160/config.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/../common/config.cmake")
+   "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/../common/config.cmake")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/../common" TYPE FILE MESSAGE_LAZY FILES "/opt/nordic/ncs/v2.9.0/nrf/modules/trusted-firmware-m/tfm_boards/nrf9160/../common/config.cmake")
+  file(INSTALL DESTINATION "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/../common" TYPE FILE MESSAGE_LAZY FILES "/opt/nordic/ncs/v2.9.0/nrf/modules/trusted-firmware-m/tfm_boards/nrf9160/../common/config.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform/tests")
+   "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform/tests")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/Users/danielnguyen/Documents/GitHub/FISC/Sender/build_1/Sender/tfm/api_ns/platform" TYPE DIRECTORY MESSAGE_LAZY FILES "/opt/nordic/ncs/v2.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/nrf9160dk_nrf9160/tests")
+  file(INSTALL DESTINATION "/Users/danielnguyen/FISC/Sender/build_1/Sender/tfm/api_ns/platform" TYPE DIRECTORY MESSAGE_LAZY FILES "/opt/nordic/ncs/v2.9.0/modules/tee/tf-m/trusted-firmware-m/platform/ext/target/nordic_nrf/nrf9160dk_nrf9160/tests")
 endif()
 
