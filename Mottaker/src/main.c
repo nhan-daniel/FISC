@@ -82,7 +82,7 @@ static void check_alarm(){
 		}
 
 		//Starter alarm, lyd og lys
-        k_timer_start(&blink_timer_alarm, K_USEC(100), K_USEC(100));
+        k_timer_start(&blink_timer_alarm, K_USEC(500), K_USEC(500));
 		k_timer_start(&blink_timer_lys, K_MSEC(300), K_MSEC(300));
 		k_timer_start(&blink_timer_diode, K_MSEC(300), K_MSEC(300));
 

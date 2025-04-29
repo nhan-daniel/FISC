@@ -21,6 +21,8 @@
 #include <zephyr/net/mqtt.h>
 #include "mqtt_connection.h"
 
+//Det Elinda ikke forstår: MQTT (og klient), poll struktur, Semaphore, LTE. Føler det kommer til å gi mening når jeg vet hva de ordene betyr
+
 //GPIO-nummer for utgangen som skal brukes
 #define INPUT_PIN 15
 
@@ -159,7 +161,7 @@ static void check_input(void) {
 		led1_checked = false;
 	}
 
-    // Hvis input er 0 – send posisjoner kontinuerlig
+    // Hvis input er 1 – send posisjoner kontinuerlig
     if (input_state == 1) {
         double lat, lon;
         generate_infinity_position(&lat, &lon);
