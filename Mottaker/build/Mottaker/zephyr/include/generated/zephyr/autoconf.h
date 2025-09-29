@@ -1,5 +1,5 @@
-#define CONFIG_MQTT_PUB_TOPIC "devacademy/krit/topic"
-#define CONFIG_MQTT_SUB_TOPIC "devacademy/krit/topic"
+#define CONFIG_MQTT_PUB_TOPIC "gruppe10/elsysprosjekt/hovedtopic"
+#define CONFIG_MQTT_SUB_TOPIC "gruppe10/elsysprosjekt/hovedtopic"
 #define CONFIG_MQTT_CLIENT_ID ""
 #define CONFIG_MQTT_BROKER_HOSTNAME "test.mosquitto.org"
 #define CONFIG_MQTT_BROKER_PORT 1883
